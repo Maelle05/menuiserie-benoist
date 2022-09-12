@@ -6,12 +6,12 @@ navigation:
   icon: '🏡'
 ---
 
-<!-- ::home-banner
+::home-banner
 # Menuiserie Benoist
 
 #bg-image
 ![bg-image](/img/home/bg-img.png)
-:: -->
+::
 
 
 ::maintenance

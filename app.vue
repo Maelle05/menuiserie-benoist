@@ -76,6 +76,7 @@ header{
   justify-content: space-between;
   align-items: center;
   transition-duration: .3s;
+  transition-property: background-color;
 }
 
 .header_tel:hover{
