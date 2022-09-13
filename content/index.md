@@ -1,9 +1,7 @@
 ---
 title: 'Accueil'
 description: 'Menuiserie Benoist - Traveaux de menuiseries et d’agencement en Anjou'
-navigation: 
-  title: 'Menuiserie Benoist - Accueil'
-  icon: '🏡'
+navigation: true
 ---
 
 ::home-banner
