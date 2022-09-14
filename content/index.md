@@ -18,8 +18,50 @@ Fort d'une expérience de plus de 10 ans dans le métier, Menuiserie Benoist vou
 
 **Menuiserie Benoist** travail également avec des entreprises partenaires mais aussi des artisans qualifié et compétents de tout type, des fournisseurs, des monteurs, créateurs et artistes pouvant réaliser des prestations sur mesure et de hautes qualités. 
 
-#images
-![img-1](/img/home/groupe.png)
+#image
+![img](/img/home/groupe.png)
+::
+
+## Produits sur mesure de haute qualités
+
+::grid
+  ::card-service
+    Cuisine
+  #img
+    ![img](/img/home/cards/cuisine.png)
+  #link
+    [](/services/cuisine)
+  ::
+  ::card-service
+    Placards
+  #img
+    ![img](/img/home/cards/placards.png)
+  #link
+    [](/services/placards)
+  ::
+  ::card-service
+    Dressing
+  #img
+    ![img](/img/home/cards/dressing.png)
+  #link
+    [](/services/dressing)
+  ::
+  ::card-service
+    Mobilier d’agencement
+  #img
+    ![img](/img/home/cards/mobilierdagencement.png)
+  #link
+    [](/services/mobilierdagencement)
+  ::
+  ::card-service
+    bla bla
+  ::
+  ::card-service
+    bla bla
+  ::
+  ::card-service
+    bla bla
+  ::
 ::
 
 ::maintenance

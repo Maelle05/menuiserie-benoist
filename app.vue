@@ -34,6 +34,11 @@ body {
   margin: 0;
 }
 
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 header{
   background-color: #FEFCFC;
   display: flex;
@@ -226,4 +231,29 @@ header{
   }
 }
 
+
+/* Base */
+h2{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 59px;
+  text-align: center;
+  margin-top: 60px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+h2 a {
+  text-decoration: none;
+  color: #000000;
+}
+
+@media only screen and (max-width : 1024px) {
+  h2{
+    font-size: 40px;
+    line-height: 49px;
+  }
+}
 </style>

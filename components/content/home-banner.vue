@@ -40,7 +40,7 @@
 <style>
 .home-banner{
   width: 100%;
-  height: 65vh;
+  height: 500px;
   overflow: hidden;
   position: relative;
 }
@@ -88,6 +88,10 @@
 }
 
 @media only screen and (max-width : 900px){
+  .home-banner{
+    height: 500px;
+  }
+
   .home-banner h1{
     font-size: 60px;
   }
