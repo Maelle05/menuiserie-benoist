@@ -6,7 +6,7 @@
 
 <style scoped>
 .grid{
-  width: 70%;
+  width: 85%;
   margin: auto;
   display: flex;
   justify-content: center;

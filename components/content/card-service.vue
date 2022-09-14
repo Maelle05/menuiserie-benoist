@@ -27,7 +27,7 @@
 
 <style>
 .card-service{
-  width: 264px;
+  width: 364px;
   height: 149px;
   background-color: #951C3C;
   margin: 5px;
@@ -81,9 +81,11 @@
   color: #FFF;
   text-align: center;
   width: 100%;
-  height: auto;
-  top: calc(40%);
+  height: 100%;
   pointer-events: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 </style>

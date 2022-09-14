@@ -54,13 +54,53 @@ Fort d'une expérience de plus de 10 ans dans le métier, Menuiserie Benoist vou
     [](/services/mobilierdagencement)
   ::
   ::card-service
-    bla bla
+    Parquet
+  #img
+    ![img](/img/home/cards/parquet.png)
+  #link
+    [](/services/parquet)
   ::
   ::card-service
-    bla bla
+    Bains
+  #img
+    ![img](/img/home/cards/bain.png)
+  #link
+    [](/services/bains)
   ::
   ::card-service
-    bla bla
+    Portes d’entrée
+  #img
+    ![img](/img/home/cards/porte.png)
+  #link
+    [](/services/portes)
+  ::
+  ::card-service
+    Fênetres
+  #img
+    ![img](/img/home/cards/fenetre.png)
+  #link
+    [](/services/fenetres)
+  ::
+  ::card-service
+    Terrasse
+  #img
+    ![img](/img/home/cards/terasse.png)
+  #link
+    [](/services/terrasse)
+  ::
+  ::card-service
+    Pergolas Mobilier d’exterieur
+  #img
+    ![img](/img/home/cards/pergola.png)
+  #link
+    [](/services/pergolasMobilierDExterieur)
+  ::
+  ::card-service
+    Portail et clôture
+  #img
+    ![img](/img/home/cards/portail.png)
+  #link
+    [](/services/portail-et-cloture)
   ::
 ::
 
