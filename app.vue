@@ -37,7 +37,7 @@
           <p>© Menuiserie Benoist <span ref="date">2022</span> - All right reserved</p>
         </div>
         <div class="footer__main__me">
-          <a href="https://maellerabouan.com/">Maëlle Rabouan</a>
+          <a href="https://maellerabouan.com/" target="_blank">Maëlle Rabouan</a>
           <span>design & developpement</span>
         </div>
       </div>
