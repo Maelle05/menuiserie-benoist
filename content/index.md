@@ -51,7 +51,7 @@ Fort d'une expérience de plus de 10 ans dans le métier, Menuiserie Benoist vou
   #img
     ![img](/img/home/cards/mobilierdagencement.png)
   #link
-    [](/services/mobilierdagencement)
+    [](/services/mobilier-d-agencement)
   ::
   ::card-service
     Parquet
@@ -72,7 +72,7 @@ Fort d'une expérience de plus de 10 ans dans le métier, Menuiserie Benoist vou
   #img
     ![img](/img/home/cards/porte.png)
   #link
-    [](/services/portes)
+    [](/services/portes-d-entree)
   ::
   ::card-service
     Fênetres
@@ -93,7 +93,7 @@ Fort d'une expérience de plus de 10 ans dans le métier, Menuiserie Benoist vou
   #img
     ![img](/img/home/cards/pergola.png)
   #link
-    [](/services/pergolasMobilierDExterieur)
+    [](/services/pergolas-mobilier-d-exterieur)
   ::
   ::card-service
     Portail et clôture
