@@ -69,6 +69,7 @@ body {
 
 html, body {
     max-width: 100%;
+    height: 100%;
     overflow-x: hidden;
 }
 
@@ -85,6 +86,7 @@ header{
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   z-index: 30;
+  box-shadow: 0px 4px 33px rgba(0, 0, 0, 0.17);
 }
 
 .header_logo{
@@ -417,6 +419,23 @@ h2{
 }
 
 h2 a {
+  text-decoration: none;
+  color: #000000;
+}
+
+h3 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 39px;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 44px;
+}
+
+
+h3 a {
   text-decoration: none;
   color: #000000;
 }
