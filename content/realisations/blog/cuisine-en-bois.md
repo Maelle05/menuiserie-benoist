@@ -1,12 +1,14 @@
 ---
-title: Cuisine en bois
-description: Cuisine en bois description
-imgCover: /img/home/cards/cuisine.png
-alt: my first cuisine post
-id: blog
+title: Cuisine en bois 
+cover: /img/home/cards/cuisine.png
+date: 22/09/22
 type: cuisine
 ---
 
-# my first cuisine post
+cuisine
+
+# Test cuisine post
 
 Cuisine en bois description
+
+![image](/img/home/cards/cuisine.png)
