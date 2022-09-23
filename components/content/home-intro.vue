@@ -34,6 +34,8 @@
         font-weight: 300;
         font-size: 18px;
         line-height: 24px;
+        text-align: left;
+        width: 100%;
     }
 
     .home-intro__text h2{

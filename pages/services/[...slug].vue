@@ -11,14 +11,7 @@
       </template>
     </ContentDoc>
     <div class="container-masonry" ref="masonry">
-      <div class="item"><img src="/img/services/cuisines/1.jpg" alt="" srcset=""></div>
-      <div class="item"><img src="/img/services/cuisines/2.png" alt="" srcset=""></div> 
-      <div class="item"><img src="/img/services/cuisines/3.jpg" alt="" srcset=""></div> 
-      <div class="item"><img src="/img/services/cuisines/4.jpg" alt="" srcset=""></div> 
-      <div class="item"><img src="/img/services/cuisines/5.png" alt="" srcset=""></div> 
-      <div class="item"><img src="/img/services/cuisines/6.jpg" alt="" srcset=""></div> 
     </div>
-    {{$route.params.slug[0]}}
   </div>
 </template>
 
@@ -27,36 +20,101 @@ import MiniMasonry from "minimasonry";
 
 export default{
   mounted: function(){
-    new MiniMasonry({
-      container: this.$refs.masonry,
-      gutterX: 10,
-      gutterY: 10
-    });
+    this.AddImg(1)
+  },
+  methods: {
+    AddImg(id) {
+      const myImg = document.createElement('img');
+      myImg.src = '/img/services/' + this.$route.params.slug[0] + '/' + id + '.jpg';
+
+      const container = document.createElement('div')
+      container.classList.add('item')
+      container.appendChild(myImg)
+
+      this.$refs.masonry.appendChild(container)
+
+      myImg.addEventListener('error', () =>{
+        myImg.style.display = 'none';
+        new MiniMasonry({
+          container: this.$refs.masonry,
+          gutterX: 10,
+          gutterY: 10
+        });
+      });
+      myImg.addEventListener('load', () =>{
+        this.imageFound(id)
+      });
+    },
+    imageFound(id){
+      this.AddImg(id+1)
+    },
   }
 }
 </script>
 
 <style>
+div.error{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+div.error h4{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+}
+
+div.error a{
+  display: block;
+  background-color: #951C3C;
+  padding: 13px 30px;
+  border-radius: 25px;
+  color: white;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  text-decoration: none;
+}
+
+div.error a:hover{
+  background-color: #ab1e43;
+}
+
 .container-masonry{
   width: 85%;
   margin: auto;
   position: relative;
+  min-height: 300px;
+  margin-top: 70px ;
 }
 
 .container-masonry .item{
   overflow: hidden;
   position: absolute;
-  border-radius: 5px;
+  border-radius: 7px;
 }
 
 .container-masonry img{
-  max-width: 350px;
+  width: 350px;
   object-fit: cover;
+  transform: scale(1.05);
 }
 
 div.service-container{
   width: 85%;
   margin: auto;
   margin-top: 60px;
+}
+
+p{
+  width: 85%;
+  margin: auto;
+  font-family: 'Roboto';
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 16px;
 }
 </style>

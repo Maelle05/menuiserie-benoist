@@ -430,6 +430,8 @@ h3 {
   font-size: 30px;
   line-height: 39px;
   text-align: center;
+  width: 85%;
+  margin: auto;
   margin-top: 0;
   margin-bottom: 44px;
 }

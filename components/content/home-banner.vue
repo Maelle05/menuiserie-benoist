@@ -45,6 +45,10 @@
   position: relative;
 }
 
+.home-banner p:first-child {
+  text-align: left;
+}
+
 .home-banner img{
   width: 100%;
   height: 100%;
@@ -81,6 +85,11 @@
   margin: 244px auto 0 auto;
   text-align: center;
   color: #000002;
+}
+
+.home-banner__annim-text p:first-child {
+  text-align: center;
+  margin: auto;
 }
 
 .home-banner__annim-text span {

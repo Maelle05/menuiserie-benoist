@@ -1,7 +1,7 @@
 <template>
   <div class="maintenance">
     <img  src="/img/icons/maintenance.png" alt="" srcset="">
-    <p>Notre site est actuellement en maintenance, merci de revenir prochainement</p>
+    <p>Cette page est actuellement en maintenance, merci de revenir prochainement</p>
   </div>
   
 </template>

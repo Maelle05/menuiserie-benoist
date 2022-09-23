@@ -29,6 +29,11 @@ const blogPosts = await queryContent('/realisations/blog')
   padding: 20px 25px 0 20px;
 }
 
+.container p {
+  text-align: left;
+  width: 100%;
+}
+
 span{
   display: block;
   font-family: 'Roboto';

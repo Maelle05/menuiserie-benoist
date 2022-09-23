@@ -44,6 +44,10 @@
   pointer-events: none;
 }
 
+.card-service p{
+  text-align: left;
+}
+
 .card-service__filter{
   height: 100%;
   width: 100%;
