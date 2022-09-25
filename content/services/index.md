@@ -1,5 +1,5 @@
 ## Menuiserie Benoist
-### Traveaux de menuiseries et d’agencement en Anjou
+### Travaux de menuiseries et d’agencement en Anjou
 
 ::grid
   ::card-service
@@ -52,7 +52,7 @@
     [](/services/portes-d-entree)
   ::
   ::card-service
-    Fênetres
+    Fenêtres
   #img
     ![img](/img/home/cards/fenetre.png)
   #link

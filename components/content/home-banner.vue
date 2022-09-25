@@ -4,7 +4,7 @@
     <div class="home-banner__filtre"></div>
     <slot />
     <div class="home-banner__annim-text">
-      <p>Traveaux sur mesure <span> Dressing </span></p>
+      <p>Travaux sur mesure <span> Dressing </span></p>
     </div>
   </div>
 </template>

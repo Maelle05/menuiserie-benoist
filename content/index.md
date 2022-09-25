@@ -1,6 +1,6 @@
 ---
 title: 'Accueil'
-description: 'Menuiserie Benoist - Traveaux de menuiseries et d’agencement en Anjou'
+description: 'Menuiserie Benoist - Travaux de menuiseries et d’agencement en Anjou'
 navigation: true
 ---
 
@@ -12,7 +12,7 @@ navigation: true
 ::
 
 ::home-intro
-## Traveaux de menuiseries et d’agencement en Anjou
+## Travaux de menuiseries et d’agencement en Anjou
 
 Fort d'une expérience de plus de 10 ans dans le métier, Menuiserie Benoist vous propose ses services pour la fabrication, la réparation ou rénovation de : Salle de bain, Fenêtres, Dressing, Portes, Meubles d'agencements, Parquets, Cuisines, etc.
 
@@ -75,7 +75,7 @@ Fort d'une expérience de plus de 10 ans dans le métier, Menuiserie Benoist vou
     [](/services/portes-d-entree)
   ::
   ::card-service
-    Fênetres
+    Fenêtres
   #img
     ![img](/img/home/cards/fenetre.png)
   #link
