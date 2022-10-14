@@ -39,6 +39,7 @@ export default{
       myImg.addEventListener('error', () =>{
         this.$refs.loader.style.display = 'none';
         myImg.style.display = 'none';
+        this.$refs.masonry.style.display = 'block';
         new MiniMasonry({
           container: this.$refs.masonry,
           gutterX: 10,
@@ -93,6 +94,7 @@ div.error a:hover{
   position: relative;
   min-height: 300px;
   margin-top: 70px ;
+  display: none;
 }
 
 .container-masonry .item{
