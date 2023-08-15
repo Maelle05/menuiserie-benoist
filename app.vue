@@ -1,5 +1,6 @@
 <template>
   <div>
+    <Banner />
     <header>
       <a href="/"><img class="header_logo" src="/img/logo.png" alt="" srcset=""></a>
       <ul class="header_menu">
