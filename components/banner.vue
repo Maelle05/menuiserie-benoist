@@ -1,6 +1,6 @@
 <template>
   <div class="banner">
-    <p>Menuiserie Benoist sera fermé à partir du 31/08/2023 pour une durée indéterminée.</p>
+    <p>Menuiserie Benoist sera fermée à partir du 31/08/2023 pour une durée indéterminée.</p>
   </div>
 </template>
 
